@@ -1,10 +1,42 @@
-Swarm
-A private, self-hosted AI assistant.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swarm · daudimania.com</title>
+  <meta name="description" content="Swarm is a private, self-hosted AI assistant.">
+  <style>
+    :root { color-scheme: light dark; --fg: #1d1d1f; --muted: #6e6e73; --bg: #fbfbfa; --line: #e3e3e0; --accent: #3a6ea5; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #ececec; --muted: #a1a1a6; --bg: #141416; --line: #2c2c30; --accent: #7fa7d6; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 72px 24px 48px; }
+    h1 { font-size: 2.4rem; letter-spacing: -0.02em; margin: 0 0 8px; }
+    .tag { color: var(--muted); font-size: 1.1rem; margin: 0 0 40px; }
+    h2 { font-size: 1.05rem; margin: 32px 0 8px; }
+    p { margin: 0 0 14px; }
+    a { color: var(--accent); }
+    footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Swarm</h1>
+    <p class="tag">A private, self-hosted AI assistant.</p>
 
-Swarm is a personal assistant that runs on its owner's own computers rather than in the cloud. It answers questions, helps with planning and code, and, with the owner's permission, reads their calendar, email and files so it can help with day-to-day tasks.
+    <p>Swarm is a personal assistant that runs on its owner's own computers rather than in the cloud. It answers
+      questions, helps with planning and code, and, with the owner's permission, reads their calendar, email and
+      files so it can help with day-to-day tasks.</p>
 
-Who it's for
-Swarm is used only by its owner. It isn't a public service and doesn't accept sign-ups.
+    <h2>Who it's for</h2>
+    <p>Swarm is used only by its owner. It isn't a public service and doesn't accept sign-ups.</p>
 
-Google data
-When connected to a Google account, Swarm requests read-only access to Google Calendar, Gmail and Google Drive. It uses that access only to answer the owner's own questions. See the privacy policy for details.
+    <h2>Google data</h2>
+    <p>When connected to a Google account, Swarm requests read-only access to Google Calendar, Gmail and Google
+      Drive. It uses that access only to answer the owner's own questions. See the
+      <a href="privacy.html">privacy policy</a> for details.</p>
+
+    <footer>daudimania.com · <a href="privacy.html">Privacy policy</a></footer>
+  </main>
+</body>
+</html>
